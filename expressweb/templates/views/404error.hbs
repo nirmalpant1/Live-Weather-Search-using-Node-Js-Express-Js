@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>header}}
+</head>
+<body>
+    {{>navbar}}
+    <!---main header-->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-12 col-12 mx-auto">
+                <div class="row">
+                    <!--left side div-->
+
+                    
+                    <div class="col-md-12 col-12 main_header_left align-items-center">
+                     <figure class="errimg">
+                        <img src="images/404.png" alt="Nirmal" class="img-fluid" title="Nirmal Pant"> 
+                     </figure>   
+                        <p>Welcome to Live Weather App</p>
+                        <h1>{{errorMsg}}</h1>
+                            <a href="/"><button>Back To Home</button></a>
+                        </div>
+
+                    <!--right side div-->
+
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+<!--Footer-->
+   {{>footer}}
+</body>
+</html>
